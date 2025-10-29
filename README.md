@@ -43,8 +43,9 @@ LLM_BENCHMARCK_DASHBOARD/
 
 ## ⚙️ Installation
 
-1️⃣ Clone the repository
+
 ```bash
+1️⃣ Clone the repository
 git clone https://github.com/<your-username>/LLM_BENCHMARCK_DASHBOARD.git
 cd LLM_BENCHMARCK_DASHBOARD
 
