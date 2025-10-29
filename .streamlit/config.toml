@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#4F46E5"                 # Violet professionnel
+backgroundColor="#0E1117"              # Fond principal
+secondaryBackgroundColor="#1F2937"     # Panneaux et sidebar
+textColor="#FAFAFA"                    # Texte clair
+font="sans serif"

@@ -1,0 +1,181 @@
+run_id;task_id;task_label;model;model_size;quality;latency_s;energy_wh;co2_g
+1;1;Who is the current UN Secretary-General?;LLaMA 3.1 8B;Small;5;3;0,05;0,03
+2;1;Who is the current UN Secretary-General?;Gemma 8B;Small;5;8;0,22;0,14
+3;1;Who is the current UN Secretary-General?;Mistral Small;Medium;5;6;0,81;0,5
+4;1;Who is the current UN Secretary-General?;GPT-OSS 20B;Medium;5;6;0,65;0,4
+5;1;Who is the current UN Secretary-General?;GPT-5;Large;5;44;9;5
+6;1;Who is the current UN Secretary-General?;DeepSeek R1;Large;5;47;24;15
+7;2;Summarise a 150-word news article in one sentence.;LLaMA 3.1 8B;Small;3;3;0,46;0,28
+8;2;Summarise a 150-word news article in one sentence.;Gemma 8B;Small;2;4;0,37;0,23
+9;2;Summarise a 150-word news article in one sentence.;Mistral Small;Medium;2;3,33;0,32;0,2
+10;2;Summarise a 150-word news article in one sentence.;GPT-OSS 20B;Medium;4;3,85;0,87;0,54
+11;2;Summarise a 150-word news article in one sentence.;GPT-5;Large;5;33;3;2
+12;2;Summarise a 150-word news article in one sentence.;DeepSeek R1;Large;5;25;29;18
+13;3;Translate a paragraph about climate change into French.;LLaMA 3.1 8B;Small;4;11;1,23;0,76
+14;3;Translate a paragraph about climate change into French.;Gemma 8B;Small;4;10;1,11;0,68
+15;3;Translate a paragraph about climate change into French.;Mistral Small;Medium;4;6;2;1,41
+16;3;Translate a paragraph about climate change into French.;GPT-OSS 20B;Medium;5;9;4;2
+17;3;Translate a paragraph about climate change into French.;GPT-5;Large;5;32;49;30
+18;3;Translate a paragraph about climate change into French.;DeepSeek R1;Large;5;26;41;25
+19;4;Classify sentiment of 3 tweets (positive/negative).;LLaMA 3.1 8B;Small;2;6;0,75;0,46
+20;4;Classify sentiment of 3 tweets (positive/negative).;Gemma 8B;Small;2;6;0,7;0,43
+21;4;Classify sentiment of 3 tweets (positive/negative).;Mistral Small;Medium;3;8;1,25;0,77
+22;4;Classify sentiment of 3 tweets (positive/negative).;GPT-OSS 20B;Medium;3;6;1;0,62
+23;4;Classify sentiment of 3 tweets (positive/negative).;GPT-5;Large;4;16;16;10
+24;4;Classify sentiment of 3 tweets (positive/negative).;DeepSeek R1;Large;4;16;41;25
+25;5;Extract email & phone number from a text.;LLaMA 3.1 8B;Small;5;2;0,1;0,06
+26;5;Extract email & phone number from a text.;Gemma 8B;Small;5;2;0,09;0,06
+27;5;Extract email & phone number from a text.;Mistral Small;Medium;5;3;0,15;0,09
+28;5;Extract email & phone number from a text.;GPT-OSS 20B;Medium;5;4;0,2;0,12
+29;5;Extract email & phone number from a text.;GPT-5;Large;5;2;0,76;0,46
+30;5;Extract email & phone number from a text.;DeepSeek R1;Large;3;52;42;26
+31;6;Explain the difference between RAM and ROM.;LLaMA 3.1 8B;Small;4;20;1,63;1
+32;6;Explain the difference between RAM and ROM.;Gemma 8B;Small;3;18;2;1,45
+33;6;Explain the difference between RAM and ROM.;Mistral Small;Medium;5;6;3;1,8
+34;6;Explain the difference between RAM and ROM.;GPT-OSS 20B;Medium;5;16;4;3
+35;6;Explain the difference between RAM and ROM.;GPT-5;Large;5;21;29;18
+36;6;Explain the difference between RAM and ROM.;DeepSeek R1;Large;5;8;59;36
+37;7;Name three renewable energy sources.;LLaMA 3.1 8B;Small;5;4;0,52;0,32
+38;7;Name three renewable energy sources.;Gemma 8B;Small;4;4;0,22;0,14
+39;7;Name three renewable energy sources.;Mistral Small;Medium;5;4;0,55;0,34
+40;7;Name three renewable energy sources.;GPT-OSS 20B;Medium;5;5;0,38;0,23
+41;7;Name three renewable energy sources.;GPT-5;Large;2;30;5;3
+42;7;Name three renewable energy sources.;DeepSeek R1;Large;5;33;29;18
+43;8;Turn a dense paragraph into bullet points.;LLaMA 3.1 8B;Small;4;8;0,63;0,4
+44;8;Turn a dense paragraph into bullet points.;Gemma 8B;Small;3;8;0,65;0,39
+45;8;Turn a dense paragraph into bullet points.;Mistral Small;Medium;5;3;1,3;0,8
+46;8;Turn a dense paragraph into bullet points.;GPT-OSS 20B;Medium;5;6;0,94;0,58
+47;8;Turn a dense paragraph into bullet points.;GPT-5;Large;5;15;13;8
+48;8;Turn a dense paragraph into bullet points.;DeepSeek R1;Large;5;17;30;18
+49;9;Rewrite a sentence in a formal business tone.;LLaMA 3.1 8B;Small;2;5;0,37;0,23
+50;9;Rewrite a sentence in a formal business tone.;Gemma 8B;Small;2;8;0,9;0,56
+51;9;Rewrite a sentence in a formal business tone.;Mistral Small;Medium;4;4;0,96;0,59
+52;9;Rewrite a sentence in a formal business tone.;GPT-OSS 20B;Medium;5;8;2;1,49
+53;9;Rewrite a sentence in a formal business tone.;GPT-5;Large;4;23;3;1,89
+54;9;Rewrite a sentence in a formal business tone.;DeepSeek R1;Large;4;24;38;23
+55;10;Create a catchy blog title about electric cars.;LLaMA 3.1 8B;Small;5;9;0,77;0,48
+56;10;Create a catchy blog title about electric cars.;Gemma 8B;Small;4;9;1,02;0,63
+57;10;Create a catchy blog title about electric cars.;Mistral Small;Medium;5;3;1,34;0,82
+58;10;Create a catchy blog title about electric cars.;GPT-OSS 20B;Medium;4;4;0,74;0,45
+59;10;Create a catchy blog title about electric cars.;GPT-5;Large;4;29;14;9
+60;10;Create a catchy blog title about electric cars.;DeepSeek R1;Large;5;56;46;28
+61;11;"Train A leaves at 10:00 at 100 km/h; Train B at 11:00 at 120 km/h — when do they meet?";LLaMA 3.1 8B;Small;1;8;1,12;0,69
+62;11;"Train A leaves at 10:00 at 100 km/h; Train B at 11:00 at 120 km/h — when do they meet?";Gemma 8B;Small;1;9;0,77;0,47
+63;11;"Train A leaves at 10:00 at 100 km/h; Train B at 11:00 at 120 km/h — when do they meet?";Mistral Small;Medium;5;13;11;7
+64;11;"Train A leaves at 10:00 at 100 km/h; Train B at 11:00 at 120 km/h — when do they meet?";GPT-OSS 20B;Medium;4;14;2;1,49
+65;11;"Train A leaves at 10:00 at 100 km/h; Train B at 11:00 at 120 km/h — when do they meet?";GPT-5;Large;4;30;22;13
+66;11;"Train A leaves at 10:00 at 100 km/h; Train B at 11:00 at 120 km/h — when do they meet?";DeepSeek R1;Large;5;105;116;71
+67;12;Solve a system: 2x+3y=12 and x−y=4.;LLaMA 3.1 8B;Small;5;11;1,16;0,72
+68;12;Solve a system: 2x+3y=12 and x−y=4.;Gemma 8B;Small;5;12;1,32;0,81
+69;12;Solve a system: 2x+3y=12 and x−y=4.;Mistral Small;Medium;4;10;7;4
+70;12;Solve a system: 2x+3y=12 and x−y=4.;GPT-OSS 20B;Medium;4;11;2;1,45
+71;12;Solve a system: 2x+3y=12 and x−y=4.;GPT-5;Large;5;45;24;15
+72;12;Solve a system: 2x+3y=12 and x−y=4.;DeepSeek R1;Large;4;106;97;60
+73;13;Give the derivative of x3+2x2−5x+7.;LLaMA 3.1 8B;Small;1;11;1,02;0,63
+74;13;Give the derivative of x3+2x2−5x+7.;Gemma 8B;Small;4;11;0,88;0,55
+75;13;Give the derivative of x3+2x2−5x+7.;Mistral Small;Medium;4;5;3;1,61
+76;13;Give the derivative of x3+2x2−5x+7.;GPT-OSS 20B;Medium;1;6;1,42;0,88
+77;13;Give the derivative of x3+2x2−5x+7.;GPT-5;Large;4;25;15;9
+78;13;Give the derivative of x3+2x2−5x+7.;DeepSeek R1;Large;4;36;58;35
+79;14;Explain “overfitting” simply.;LLaMA 3.1 8B;Small;3;5;0,81;0,5
+80;14;Explain “overfitting” simply.;Gemma 8B;Small;4;6;0,69;0,43
+81;14;Explain “overfitting” simply.;Mistral Small;Medium;4;5;1,66;1,02
+82;14;Explain “overfitting” simply.;GPT-OSS 20B;Medium;5;6;1,03;0,64
+83;14;Explain “overfitting” simply.;GPT-5;Large;5;36;17;11
+84;14;Explain “overfitting” simply.;DeepSeek R1;Large;5;51;42;26
+85;15;Convert 1500 W to kWh for 24 h and to yearly cost at 0.20 €/kWh.;LLaMA 3.1 8B;Small;1;9;0,84;0,52
+86;15;Convert 1500 W to kWh for 24 h and to yearly cost at 0.20 €/kWh.;Gemma 8B;Small;1;8;0,91;0,56
+87;15;Convert 1500 W to kWh for 24 h and to yearly cost at 0.20 €/kWh.;Mistral Small;Medium;5;5;2;1,49
+88;15;Convert 1500 W to kWh for 24 h and to yearly cost at 0.20 €/kWh.;GPT-OSS 20B;Medium;5;6;1,54;0,95
+89;15;Convert 1500 W to kWh for 24 h and to yearly cost at 0.20 €/kWh.;GPT-5;Large;5;15;20;12
+90;15;Convert 1500 W to kWh for 24 h and to yearly cost at 0.20 €/kWh.;DeepSeek R1;Large;5;16;32;20
+91;16;Write Python code reversing a string.;LLaMA 3.1 8B;Small;5;15;1,5;0,92
+92;16;Write Python code reversing a string.;Gemma 8B;Small;5;15;1,87;1,15
+93;16;Write Python code reversing a string.;Mistral Small;Medium;5;5;1,71;1,05
+94;16;Write Python code reversing a string.;GPT-OSS 20B;Medium;5;6;1,31;0,81
+95;16;Write Python code reversing a string.;GPT-5;Large;5;25;16;9
+96;16;Write Python code reversing a string.;DeepSeek R1;Large;5;27;17;10
+97;17;Fix the bug in ‘for i in range(5) print(i)’.;LLaMA 3.1 8B;Small;5;5;0,69;0,43
+98;17;Fix the bug in ‘for i in range(5) print(i)’.;Gemma 8B;Small;4;4;0,38;0,24
+99;17;Fix the bug in ‘for i in range(5) print(i)’.;Mistral Small;Medium;5;5;0,85;0,52
+100;17;Fix the bug in ‘for i in range(5) print(i)’.;GPT-OSS 20B;Medium;5;6;1,25;0,77
+101;17;Fix the bug in ‘for i in range(5) print(i)’.;GPT-5;Large;2;35;11;7
+102;17;Fix the bug in ‘for i in range(5) print(i)’.;DeepSeek R1;Large;5;45;50;30
+103;18;Explain what this recursive Python function returns.;LLaMA 3.1 8B;Small;5;15;1,81;1,11
+104;18;Explain what this recursive Python function returns.;Gemma 8B;Small;4;16;2;1,48
+105;18;Explain what this recursive Python function returns.;Mistral Small;Medium;2;10;3;1,66
+106;18;Explain what this recursive Python function returns.;GPT-OSS 20B;Medium;5;15;1,93;1,19
+107;18;Explain what this recursive Python function returns.;GPT-5;Large;3;45;21;13
+108;18;Explain what this recursive Python function returns.;DeepSeek R1;Large;3;60;54;33
+109;19;Suggest an optimisation for a slow SQL query (given).;LLaMA 3.1 8B;Small;5;19;2;1,33
+110;19;Suggest an optimisation for a slow SQL query (given).;Gemma 8B;Small;5;36;5;3
+111;19;Suggest an optimisation for a slow SQL query (given).;Mistral Small;Medium;5;3;1,68;1,03
+112;19;Suggest an optimisation for a slow SQL query (given).;GPT-OSS 20B;Medium;5;18;4;3
+113;19;Suggest an optimisation for a slow SQL query (given).;GPT-5;Large;5;85;44;27
+114;19;Suggest an optimisation for a slow SQL query (given).;DeepSeek R1;Large;5;105;101;62
+115;20;Explain Big-O complexity of binary search.;LLaMA 3.1 8B;Small;5;26;3;1,79
+116;20;Explain Big-O complexity of binary search.;Gemma 8B;Small;5;31;3;1,82
+117;20;Explain Big-O complexity of binary search.;Mistral Small;Medium;5;4;3;1,67
+118;20;Explain Big-O complexity of binary search.;GPT-OSS 20B;Medium;4;6;1,92;1,18
+119;20;Explain Big-O complexity of binary search.;GPT-5;Large;5;37;25;15
+120;20;Explain Big-O complexity of binary search.;DeepSeek R1;Large;5;44;54;33
+121;21;Compare nuclear vs solar energy (3 pros / 3 cons each).;LLaMA 3.1 8B;Small;5;16;1,73;1,06
+122;21;Compare nuclear vs solar energy (3 pros / 3 cons each).;Gemma 8B;Small;5;12;2;1,39
+123;21;Compare nuclear vs solar energy (3 pros / 3 cons each).;Mistral Small;Medium;5;4;2;1,48
+124;21;Compare nuclear vs solar energy (3 pros / 3 cons each).;GPT-OSS 20B;Medium;5;10;2;1,3
+125;21;Compare nuclear vs solar energy (3 pros / 3 cons each).;GPT-5;Large;5;59;34;21
+126;21;Compare nuclear vs solar energy (3 pros / 3 cons each).;DeepSeek R1;Large;5;65;60;37
+127;22;Explain GDPR compliance steps for a SaaS startup.;LLaMA 3.1 8B;Small;5;17;3;1,89
+128;22;Explain GDPR compliance steps for a SaaS startup.;Gemma 8B;Small;5;45;7;5
+129;22;Explain GDPR compliance steps for a SaaS startup.;Mistral Small;Medium;5;11;7;4
+130;22;Explain GDPR compliance steps for a SaaS startup.;GPT-OSS 20B;Medium;5;34;9;6
+131;22;Explain GDPR compliance steps for a SaaS startup.;GPT-5;Large;5;76;92;56
+132;22;Explain GDPR compliance steps for a SaaS startup.;DeepSeek R1;Large;5;83;115;70
+133;23;Summarise a Wikipedia article on climate change into 5 key bullet points.;LLaMA 3.1 8B;Small;3;12;1,82;1,12
+134;23;Summarise a Wikipedia article on climate change into 5 key bullet points.;Gemma 8B;Small;3;15;0,83;0,51
+135;23;Summarise a Wikipedia article on climate change into 5 key bullet points.;Mistral Small;Medium;5;5;1,57;0,96
+136;23;Summarise a Wikipedia article on climate change into 5 key bullet points.;GPT-OSS 20B;Medium;5;7;1,31;0,81
+137;23;Summarise a Wikipedia article on climate change into 5 key bullet points.;GPT-5;Large;5;32;38;23
+138;23;Summarise a Wikipedia article on climate change into 5 key bullet points.;DeepSeek R1;Large;5;34;34;21
+139;24;"Describe in detail the transformer architecture (attention; encoder/decoder).";LLaMA 3.1 8B;Small;5;33;6;4
+140;24;"Describe in detail the transformer architecture (attention; encoder/decoder).";Gemma 8B;Small;5;36;6;4
+141;24;"Describe in detail the transformer architecture (attention; encoder/decoder).";Mistral Small;Medium;5;10;6;4
+142;24;"Describe in detail the transformer architecture (attention; encoder/decoder).";GPT-OSS 20B;Medium;5;34;10;6
+143;24;"Describe in detail the transformer architecture (attention; encoder/decoder).";GPT-5;Large;5;96;103;63
+144;24;"Describe in detail the transformer architecture (attention; encoder/decoder).";DeepSeek R1;Large;5;102;115;71
+145;25;"List and explain three differences between supervised; unsupervised; and reinforcement learning.";LLaMA 3.1 8B;Small;5;12;1,92;1,18
+146;25;"List and explain three differences between supervised; unsupervised; and reinforcement learning.";Gemma 8B;Small;5;19;3;1,66
+147;25;"List and explain three differences between supervised; unsupervised; and reinforcement learning.";Mistral Small;Medium;5;11;2;1,32
+148;25;"List and explain three differences between supervised; unsupervised; and reinforcement learning.";GPT-OSS 20B;Medium;5;6;2;1,27
+149;25;"List and explain three differences between supervised; unsupervised; and reinforcement learning.";GPT-5;Large;5;25;37;22
+150;25;"List and explain three differences between supervised; unsupervised; and reinforcement learning.";DeepSeek R1;Large;5;35;39;24
+151;26;Write a project plan for deploying AI to monitor deforestation using satellites.;LLaMA 3.1 8B;Small;5;23;3;1,87
+152;26;Write a project plan for deploying AI to monitor deforestation using satellites.;Gemma 8B;Small;5;40;6;4
+153;26;Write a project plan for deploying AI to monitor deforestation using satellites.;Mistral Small;Medium;5;10;7;4
+154;26;Write a project plan for deploying AI to monitor deforestation using satellites.;GPT-OSS 20B;Medium;5;40;11;7
+155;26;Write a project plan for deploying AI to monitor deforestation using satellites.;GPT-5;Large;5;102;149;91
+156;26;Write a project plan for deploying AI to monitor deforestation using satellites.;DeepSeek R1;Large;5;132;66;40
+157;27;Draft a LinkedIn post convincing a company to adopt green AI.;LLaMA 3.1 8B;Small;2;10;1,75;1,08
+158;27;Draft a LinkedIn post convincing a company to adopt green AI.;Gemma 8B;Small;3;9;1,08;0,67
+159;27;Draft a LinkedIn post convincing a company to adopt green AI.;Mistral Small;Medium;5;8;1,98;1,21
+160;27;Draft a LinkedIn post convincing a company to adopt green AI.;GPT-OSS 20B;Medium;5;12;2;1,48
+161;27;Draft a LinkedIn post convincing a company to adopt green AI.;GPT-5;Large;5;35;59;36
+162;27;Draft a LinkedIn post convincing a company to adopt green AI.;DeepSeek R1;Large;5;45;32;19
+163;28;Create a short legal disclaimer about data privacy for an AI chatbot.;LLaMA 3.1 8B;Small;4;8;1,08;0,66
+164;28;Create a short legal disclaimer about data privacy for an AI chatbot.;Gemma 8B;Small;3;8;0,7;0,43
+165;28;Create a short legal disclaimer about data privacy for an AI chatbot.;Mistral Small;Medium;5;5;0,9;0,55
+166;28;Create a short legal disclaimer about data privacy for an AI chatbot.;GPT-OSS 20B;Medium;4;6;0,48;0,3
+167;28;Create a short legal disclaimer about data privacy for an AI chatbot.;GPT-5;Large;5;35;31;19
+168;28;Create a short legal disclaimer about data privacy for an AI chatbot.;DeepSeek R1;Large;5;36;24;15
+169;29;Imagine and explain a new business model that uses AI to reduce carbon emissions in logistics.;LLaMA 3.1 8B;Small;4;19;3;2
+170;29;Imagine and explain a new business model that uses AI to reduce carbon emissions in logistics.;Gemma 8B;Small;4;26;4;2
+171;29;Imagine and explain a new business model that uses AI to reduce carbon emissions in logistics.;Mistral Small;Medium;5;15;3;1,83
+172;29;Imagine and explain a new business model that uses AI to reduce carbon emissions in logistics.;GPT-OSS 20B;Medium;5;26;9;5
+173;29;Imagine and explain a new business model that uses AI to reduce carbon emissions in logistics.;GPT-5;Large;5;100;109;66
+174;29;Imagine and explain a new business model that uses AI to reduce carbon emissions in logistics.;DeepSeek R1;Large;5;90;94;58
+175;30;Analyse a research abstract and rewrite it for a non-technical policymaker.;LLaMA 3.1 8B;Small;4;8;1,12;0,69
+176;30;Analyse a research abstract and rewrite it for a non-technical policymaker.;Gemma 8B;Small;3;9;1,13;0,7
+177;30;Analyse a research abstract and rewrite it for a non-technical policymaker.;Mistral Small;Medium;4;5;1,32;0,81
+178;30;Analyse a research abstract and rewrite it for a non-technical policymaker.;GPT-OSS 20B;Medium;5;10;3;1,8
+179;30;Analyse a research abstract and rewrite it for a non-technical policymaker.;GPT-5;Large;5;49;52;32
+180;30;Analyse a research abstract and rewrite it for a non-technical policymaker.;DeepSeek R1;Large;5;52;56;34
