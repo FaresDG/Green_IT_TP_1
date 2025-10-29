@@ -46,7 +46,7 @@ LLM_BENCHMARCK_DASHBOARD/
 
 ```bash
 1️⃣ Clone the repository
-git clone https://github.com/<your-username>/LLM_BENCHMARCK_DASHBOARD.git
+git clone https://github.com/FarèsDG/LLM_BENCHMARCK_DASHBOARD.git
 cd LLM_BENCHMARCK_DASHBOARD
 
 2️⃣ Create and activate a virtual environment
