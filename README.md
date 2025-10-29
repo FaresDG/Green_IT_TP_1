@@ -43,7 +43,7 @@ LLM_BENCHMARCK_DASHBOARD/
 
 ## ⚙️ Installation
 
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 ```bash
 git clone https://github.com/<your-username>/LLM_BENCHMARCK_DASHBOARD.git
 cd LLM_BENCHMARCK_DASHBOARD
@@ -55,6 +55,7 @@ source .venv/bin/activate     # macOS / Linux
 
 3️⃣ Install dependencies
 pip install -r requirements.txt
+
 
 🚀 Running the app
 
@@ -72,3 +73,45 @@ quality	Quality score (1–5)
 latency_s	Average response time (seconds)
 energy_kwh	Energy consumption per run (Wh)
 co2_kg	CO₂ emissions per run (g eq.)
+
+
+🧩 Key Pages
+
+🧭 App.py – Aggregated Dashboard
+Bar charts comparing:
+Average Quality, Latency, Energy, and CO₂
+By Model Size and Task Category
+
+🔬 Exploration.py – Metrics Exploration
+Line and bar charts exploring:
+Quality vs Energy
+Quality vs CO₂ Emissions
+Average Latency per Model Size
+
+🏁 Ranking.py – Model Ranking
+Ranks models per task category using weighted scoring:
+Adjustable sliders for Quality, Latency, and Energy
+Interactive Top 5 bar chart per use case
+CSV export of the complete ranking
+
+
+🧠 How the Weighted Ranking Works
+Each model gets a normalized score per metric:
+Higher is better for Quality
+Lower is better for Latency and Energy
+The final score is computed as:   Score=wQ​×Q+wL​×(1−L)+wE​×(1−E),
+
+where ( w_Q ), ( w_L ), and ( w_E ) are user-defined weights (whose total does not exceed 1), and all metrics are normalized between 0 and 1 prior to aggregation.
+
+📦 Dependencies
+Library	Purpose
+streamlit	Web app interface
+pandas	Data processing
+plotly	Interactive visualizations
+numpy	Numerical normalization
+pathlib	File system utilities
+
+🧑‍💻 Author
+
+Marie-Pierre DIQUERO & Fares DOSSOGBETE 
+MSc Data Engineering & Cloud Computing @ Aivancity Paris
